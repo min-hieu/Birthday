@@ -2,7 +2,7 @@ const rythm = new Rythm();
 
 rythm.addRythm('happyFeet', 'twist', 0, 10, {
               min: 20,
-              max: 180
+              max: 50
             })
 
 rythm.setMusic('./happyBirthday.mp3');

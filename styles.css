@@ -63,14 +63,14 @@ html, body {
 }
 
 #title {
-	font-family: "Comic Sans MS";
+	font-family: "Comic Sans MS", "Chalkboard";
 	font-size: 10vw;
 	margin: 0 auto;
 }
 
 #endingText {
 	z-index: 9;
-	font-family: "Comic Sans MS";
+	font-family: "Comic Sans MS", "Chalkboard";
 	font-size: 10vw;
 	width: 100vw;
 	text-align: center;
@@ -83,5 +83,24 @@ html, body {
 	font-size: 6vw;
 	text-align: justify;
 	margin: 0 auto;
-	font-family: "Comic Sans MS";
+	font-family: "Comic Sans MS", "Chalkboard";
+}
+
+.pianoMan {
+	position: absolute;
+	width: 100%;
+	top: 280vh;
+}
+
+.man {
+	position: relative;
+}
+
+.piano {
+	position: absolute;
+	width: 60%;
+	left: 30vw;
+	margin: 0 auto;
+	-webkit-transform: scaleX(-1);
+ 	transform: scaleX(-1);
 }
