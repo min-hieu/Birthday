@@ -1,0 +1,87 @@
+html, body {
+	margin: 0;
+	background-color: #32346f;
+	overflow-x: hidden;
+}
+
+.eyzContainer{
+	max-width: 100%;
+	max-height: min-content;
+	position: fixed;
+	bottom: 0;
+}
+
+.notFixed {
+	top: -50vh;
+	position: relative;
+}
+
+.lightoff {
+	display: none;
+}
+
+#light {
+	z-index: 5;
+	position: absolute;
+	width: 170%;
+	margin-top: 0;
+	left: -19vw;
+	bottom: -10vh;
+}
+
+#eyz {
+	z-index: 4;
+	position: relative;
+	width: 170%;
+	margin-top: 0;
+	left: -19vw;
+	bottom: -11vh;
+}
+
+#gradient {
+	z-index: 3;
+	position: absolute;
+	width: 170%;
+	margin-top: 0;
+	left: -19vw;
+	bottom: -10vh;
+}
+
+.textContainer {
+	z-index: 0;
+	width: 80vw;
+	margin: 0 auto;
+	color: rgb(224, 183, 0);
+	text-align: justify;
+}
+
+#titleContainer {
+	position: relative;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	text-align: center;
+}
+
+#title {
+	font-family: "Comic Sans MS";
+	font-size: 10vw;
+	margin: 0 auto;
+}
+
+#endingText {
+	z-index: 9;
+	font-family: "Comic Sans MS";
+	font-size: 10vw;
+	width: 100vw;
+	text-align: center;
+	position: absolute;
+	top: 250vh;
+	left: 2vw;
+}
+
+.text {
+	font-size: 6vw;
+	text-align: justify;
+	margin: 0 auto;
+	font-family: "Comic Sans MS";
+}
