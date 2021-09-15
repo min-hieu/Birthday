@@ -31,5 +31,10 @@ var onScroll = function() {
 	}
 }
 
+function playPiano() {
+	rythm.start();
+	console.log("playing again");
+}
+
 onScroll();
 document.addEventListener('scroll', onScroll);
