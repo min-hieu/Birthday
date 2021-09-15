@@ -25,6 +25,9 @@ var onScroll = function() {
 	else {
 		light.classList.remove('lightoff');
 	}
+	if (rythm.stopped == true){
+		rythm.start();
+	}
 }
 
 onScroll();
