@@ -27,6 +27,7 @@ var onScroll = function() {
 	}
 	if (rythm.stopped == true){
 		rythm.start();
+		console.log("playing again");
 	}
 }
 
